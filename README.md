@@ -5,7 +5,3 @@
 .title-label > h2 {
     display:none;
 }
-
-Boop -> 
-
-.title-label > h2 {display:none;}
