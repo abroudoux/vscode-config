@@ -1,6 +1,9 @@
-# Te remove Explorer title
+# To remove Explorer title
 
-/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/workbench.main.css 
+cd /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/
+code .
+
+workench.main.css
 
 .title-label > h2 {
     display:none;
