@@ -68,5 +68,6 @@
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": false,
     "workbench.sideBar.location": "right",
-    "editor.glyphMargin": false
+    "editor.glyphMargin": false,
+    "terminal.integrated.fontSize": 20
 }
