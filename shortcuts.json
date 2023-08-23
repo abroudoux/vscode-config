@@ -19,4 +19,12 @@
         "key": "cmd+k",
         "command": "workbench.view.scm"
     }
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    }
 ]
