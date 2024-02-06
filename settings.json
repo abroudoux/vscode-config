@@ -1,74 +1,75 @@
 {
-    "files.autoSave": "onFocusChange",
-    "workbench.iconTheme": "material-icon-theme",
-    "window.confirmBeforeClose": "always",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.lineHeight": 0,
-    "editor.fontSize": 14,
-    "editor.fontWeight": "normal",
-    "editor.wordWrap": "off",
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.horizontalScrollbarSize": 0,
-    "editor.fontFamily": "'Fira Code iScript', 'Fira Code', 'MesloLGS NF'",
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false,
-    "editor.renderWhitespace": "trailing",
-    "editor.tabSize": 4,
-    "editor.linkedEditing": true,
-    "editor.occurrencesHighlight": false,
-    "editor.suggest.insertMode": "replace",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.editor.enablePreviewFromCodeNavigation": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "emmet.triggerExpansionOnTab": true,
-    "material-icon-theme.hidesExplorerArrows": true,
-    "editor.fontLigatures": true,
-    "editor.minimap.maxColumn": 0,
-    "editor.minimap.autohide": true,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.scrollBeyondLastLine": false,
-    "editor.scrollbar.verticalScrollbarSize": 0,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    // "entity.name.type.class", // class names
-                    // "keyword" // import, export, default ... 
-                    // "storage.modifier", // static keyword
-                    // "storage.type", // class keyword
-                    // "support.class.builtin",
-                    // "keywords.control",
-                    // "constant.language",
-                    // "entity.other.attribute-name",
-                    // "entity.name.method"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "git.autofetch": true,
-    "workbench.startupEditor": "none",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
-    "breadcrumbs.enabled": false,
-    "workbench.editor.enablePreview": false,
-    "explorer.autoReveal": false,
-    "explorer.copyRelativePathSeparator": "/",
-    "explorer.openEditors.visible": 0,
-    "explorer.sortOrder": "type",
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
-    "workbench.sideBar.location": "right",
-    "editor.glyphMargin": false,
-    "terminal.integrated.fontSize": 20,
-    "window.title": " "
+  "files.autoSave": "onFocusChange",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 0,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.wordWrap": "off",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.fontFamily": "'Fira Code iScript', 'Fira Code'",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.tabSize": 4,
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "emmet.triggerExpansionOnTab": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.maxColumn": 0,
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollBeyondLastLine": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "explorer.autoReveal": false,
+  "explorer.copyRelativePathSeparator": "/",
+  "explorer.openEditors.visible": 0,
+  "explorer.sortOrder": "type",
+  "workbench.sideBar.location": "right",
+  "editor.glyphMargin": false,
+  "terminal.integrated.fontSize": 14,
+  "window.title": " ",
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "nest",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "apc.stylesheet": {
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important"
+  },
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.activityBar.location": "hidden",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.statusBar.visible": false
 }
