@@ -72,7 +72,11 @@
     "#command-blur": "position: absolute; width: 100%; height: 100%; background: transparent; top: 0; left: 0;",
     ".monaco-inputbox input::placeholder": "color: rgba(255, 255, 255, 0.3) !important;",
     ".monaco-workbench .part > .composite.header-or-footer, .monaco-workbench .part > .composite.title": "display: none !important;",
-    ".monaco-pane-view .pane>.pane-body": "padding: 6px 0 !important;"
+    ".monaco-pane-view .pane>.pane-body": "padding: 6px 0 !important;",
+    ".monaco-action-bar.quick-input-list-entry-action-bar": "display: none !important;",
+    ".quick-input-list-separator": "display: none !important;",
+    ".scrollbar.vertical": "display: none !important;",
+    ".content": "height: 100dvh !important;"
   },
   "github.copilot.enable": {
     "*": true,
