@@ -34,7 +34,6 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "git.autofetch": true,
   "workbench.startupEditor": "none",
-  "terminal.integrated.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "breadcrumbs.enabled": false,
@@ -51,6 +50,12 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "material-icon-theme.activeIconPack": "nest",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
   "apc.stylesheet": {
     ".title-label": "display: none !important",
     ".title-actions": "display: none !important",
@@ -59,17 +64,36 @@
     ".titlebar-right": "display: none !important",
     ".inline-tabs-placeholder": "display: none !important"
   },
-  "explorer.compactFolders": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "workbench.activityBar.location": "hidden",
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false
   },
-  "workbench.statusBar.visible": false
+  "sonarlint.rules": {
+    "typescript:S6770": {
+      "level": "off"
+    },
+    "php:S103": {
+      "level": "off"
+    }
+  },
+  "svelte.enable-ts-plugin": true,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'Fira Code'",
+  "yaml.schemas": {
+    "file:///Users/abroudoux/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "update.mode": "manual",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "vscode_custom_css.imports": [
+    "file:///Users/abroudoux/vscode/custom-vscode.css",
+    "file:///Users/abroudoux/vscode/custom-vscode.js"
+  ]
 }
