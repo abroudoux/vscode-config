@@ -82,7 +82,7 @@
     ".split-view-container": "overflow: auto !important;"
   },
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false
@@ -102,18 +102,20 @@
     "file:///Users/abroudoux/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "update.mode": "manual",
-  "prisma.showPrismaDataPlatformNotification": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "vscode_custom_css.imports": [
-    "file:///Users/abroudoux/vscode/custom-vscode.css",
-    "file:///Users/abroudoux/vscode/custom-vscode.js"
-  ],
   "php.validate.executablePath": "/opt/homebrew/bin/php",
-  "workbench.activityBar.location": "hidden",
   "errorLens.enabledDiagnosticLevels": ["error", "info"],
   "editor.lightbulb.enabled": "off",
-  "workbench.statusBar.visible": false
+  "workbench.activityBar.location": "hidden",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "workbench.statusBar.visible": false,
+  "material-icon-theme.files.associations": {
+    "*.gleam": "gleam2",
+    "gleam.toml": "gleam2"
+  }
 }
