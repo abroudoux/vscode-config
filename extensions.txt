@@ -1,0 +1,24 @@
+App Customize UI++
+Better Comment
+colorize
+Error LEns
+ES7+ React/Redux/React-Native
+ESlint
+Even Better TOML
+Github Action
+GitLens
+Gleam
+Go
+JavaScript
+Material Icon Theme
+npm Intellisense
+Package Json Upgrade
+PostCSS Language Support
+Prettier - Code formatter
+Pretty TypeScript Errors
+SQLite
+Stylelint
+Svelte for VS Code
+Tailwind CSS Intellisense
+Template String Converter
+YAML
