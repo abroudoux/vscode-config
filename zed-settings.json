@@ -1,0 +1,42 @@
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": "Catppuccin Mocha",
+  "icon_theme": "Catppuccin Mocha",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "cursor_blink": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "project_panel": {
+    "dock": "right",
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "autosave": "on_focus_change",
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "toolbar": {
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  "gutter": {
+    "code_actions": false
+  },
+  "file_scan_exclusions": [
+    "../vendor",
+    "../node_modules",
+    "../.git",
+    "../.vscode",
+    "../.idea"
+  ]
+}

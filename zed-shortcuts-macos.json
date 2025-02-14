@@ -1,0 +1,15 @@
+[
+  {
+    "bindings": {
+      "cmd-o": "file_finder::Toggle",
+      "cmd-p": "command_palette::Toggle",
+      "cmd-t": "workspace::ToggleBottomDock",
+      "cmd-b": "workspace::ToggleRightDock",
+      "cmd-enter": "editor::GoToDefinition",
+      "cmd-i": "assistant::InlineAssist",
+      "cmd-e": "project_panel::ToggleFocus",
+      "cmd-m": "editor::Hover",
+      "cmd-shift-/": "editor::ToggleComments"
+    }
+  }
+]

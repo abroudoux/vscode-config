@@ -1,1 +1,1 @@
-# vscode-config
+# code-editors-config
